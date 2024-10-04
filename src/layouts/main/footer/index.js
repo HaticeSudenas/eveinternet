@@ -29,7 +29,7 @@ export default function Footer() {
     };
     return (
         <div className="relative">
-            <div className="px-5 md:px-20 bg-cover bg-center w-[1300px] h-full" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img/background/images.jpg)` }}>
+            <div className="px-5 md:px-20 bg-cover bg-center w-full h-full" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img/background/images.jpg)` }}>
                 <div className="mt-auto text-white flex flex-col md:flex-row">
                     <div className="my-3 pt-6 w-full flex items-center outline-none">
                         <div>

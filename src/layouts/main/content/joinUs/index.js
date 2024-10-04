@@ -2,7 +2,7 @@ import { BsBadgeHd } from "react-icons/bs";
 import { MdOutlineLibraryAddCheck } from "react-icons/md";
 export default function JoinUs() {
     return (
-        <div className="mt-[-800px] bg-cover bg-center w-[1300px] h-[1100px] md:h-auto">
+        <div className="mt-[-800px] bg-cover bg-center w-full h-[1100px] md:h-auto">
             <div className="mx-4 md:mx-28 bg-white shadow-2xl rounded-2xl p-4">
                 <div className="flex flex-col md:flex-row justify-between w-full h-full transition-colors block group">
                     <div className="w-full md:w-[700px] h-[370px] md:h-[550px] relative mt-6 md:mt-0">
