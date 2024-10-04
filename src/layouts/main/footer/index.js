@@ -139,7 +139,7 @@ export default function Footer() {
                             <p>Terms</p>
                             <p>Privacy</p>
                             <p>Contact</p>
-                            <p className="flex gap-2"><img src="/img/logo/world.png" className="w-4" />EN</p>
+                            <p className="flex gap-2"><img alt="A" src="/img/logo/world.png" className="w-4" />EN</p>
                         </div>
                     </div>
                 </div>
