@@ -49,7 +49,7 @@ export default function Menu() {
                         <div className="btn-group">
                             <button
                                 type="button"
-                                className="btn btn-gray text-black border-none text-xl  dropdown-toggle"
+                                className="btn btn-gray text-black border-none text-base  dropdown-toggle"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
@@ -59,7 +59,7 @@ export default function Menu() {
                         <div className="btn-group">
                             <button
                                 type="button"
-                                className="btn btn-gray text-black border-none text-xl  dropdown-toggle"
+                                className="btn btn-gray text-black border-none text-base  dropdown-toggle"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
@@ -68,7 +68,7 @@ export default function Menu() {
                         </div>
                         <button
                             type="button"
-                            className="flex btn btn-outline-danger border-[2px] font-medium rounded-lg w-[130px] h-[40px]"
+                            className="flex btn btn-outline-danger border-[2px] font-medium rounded-lg w-[140px] h-[40px]"
                         >
                             <div className="pt-1 flex">
                                 <MdVideoCameraFront className="w-6 h-6" />
@@ -77,7 +77,7 @@ export default function Menu() {
                         </button>
                         <button
                             type="button"
-                            className="btn btn-danger bg-red-500 hover:bg-[#fffdf5] hover:text-red-500 border-[2px] font-medium rounded-lg w-[130px] h-[40px]"
+                            className="btn btn-danger bg-red-500 hover:bg-[#fffdf5] hover:text-red-500 border-[2px] font-medium rounded-lg w-[140px] h-[40px]"
                         >
                             Hemen Başvur
                         </button>
