@@ -2,7 +2,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 
 export default function Best() {
     return (
-        <div className="px-5 sm:px-10 md:px-20 bg-cover bg-center w-[1980px] h-[776px]" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img/background/navbar.png)` }}>
+        <div className="px-5 sm:px-10 md:px-20 bg-cover bg-center w-[1300px] h-[776px]" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img/background/navbar.png)` }}>
             <div className="max-w-[900px] mx-auto pt-[50px]">
                 <div className="w-full border-b">
                     <div className="mt-auto">

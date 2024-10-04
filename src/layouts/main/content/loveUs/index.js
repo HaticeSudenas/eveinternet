@@ -56,7 +56,7 @@ export default function LoveUs() {
     };
 
     return (
-        <div className="mt-20 px-20 mb-28 bg-cover bg-center w-[1980px] h-[732px] mb-[140px]">
+        <div className="mt-20 px-20 mb-28 bg-cover bg-center w-[1300px] h-[732px] mb-[140px]">
             <div className="text-[#0F172A] text-6xl font-extrabold flex justify-between items-center py-16">
                 Neler Var
                 <div>
