@@ -15,7 +15,7 @@ export default function Menu() {
 
             <div className="flex justify-between items-center">
 
-                <div className="pt-4 pr-[30px] w-[200px] h-[50px]">
+                <div className="pt-4 pr-[30px] w-[150px] h-[40px]">
                     <img
                         src="https://digiturk-internet.com.tr/Content/assets/img/logo.png"
                         alt="Logo"

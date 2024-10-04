@@ -3,7 +3,7 @@ import { ChevronDownIcon } from '@heroicons/react/outline';
 export default function Collection() {
 
     return (
-        <div className=" md:w-[1850px] border-2 border-black-400 ml-4 mb-20  w-full h-[500px] bg-white shadow-2xl rounded-2xl p-4 mt-24">
+        <div className=" md:w-[1850px] border-2 border-black-400 ml-4 mb-20  w-[1980px] h-[500px] bg-white shadow-2xl rounded-2xl p-4 mt-24">
             <div className="text-3xl font-bold text-center">Digiturk Eğlencenin ve Avrupanın Yıldızı Sıkça Sorulan Sorular</div>
             <div className=" p-4">
                 <Disclosure>
