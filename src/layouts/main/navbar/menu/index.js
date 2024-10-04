@@ -15,7 +15,7 @@ export default function Menu() {
 
             <div className="flex justify-between items-center">
 
-                <div className="pt-4 pr-28 w-[230px] h-[70px]">
+                <div className="pt-4 pr-[40px] w-[200px] h-[50px]">
                     <img
                         src="https://digiturk-internet.com.tr/Content/assets/img/logo.png"
                         alt="Logo"
@@ -36,20 +36,20 @@ export default function Menu() {
                     <ul className="gap-4 font-normal text-xl flex p-4 mt-4 rounded-lg md:space-x-10 rtl:space-x-reverse md:mt-0">
                         <button
                             type="button"
-                            className="btn btn-danger bg-gradient-to-r from-orange-300 to-gray-800 font-bold rounded-full w-[100px] h-[70px]"
+                            className="btn btn-danger bg-gradient-to-r from-orange-300 to-gray-800 font-bold rounded-full w-[80px] h-[40px]"
                         >
                             Tod TV
                         </button>
                         <button
                             type="button"
-                            className="btn btn-danger bg-gradient-to-r from-purple-800 to-blue-900 font-bold rounded-full w-[200px] h-[70px]"
+                            className="btn btn-danger bg-gradient-to-r from-purple-800 to-blue-900 font-bold rounded-full w-[160px] h-[40px]"
                         >
                             beIN CONNECT
                         </button>
                         <div className="btn-group">
                             <button
                                 type="button"
-                                className="btn btn-gray text-black border-none text-2xl font-medium dropdown-toggle"
+                                className="btn btn-gray text-black border-none text-xl  dropdown-toggle"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
@@ -59,7 +59,7 @@ export default function Menu() {
                         <div className="btn-group">
                             <button
                                 type="button"
-                                className="btn btn-gray text-black border-none text-2xl font-medium dropdown-toggle"
+                                className="btn btn-gray text-black border-none text-xl  dropdown-toggle"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
@@ -68,7 +68,7 @@ export default function Menu() {
                         </div>
                         <button
                             type="button"
-                            className="flex btn btn-outline-danger border-[2px] font-medium rounded-lg w-[150px] h-[50px]"
+                            className="flex btn btn-outline-danger border-[2px] font-medium rounded-lg w-[130px] h-[40px]"
                         >
                             <div className="pt-1 flex">
                                 <MdVideoCameraFront className="w-6 h-6" />
@@ -77,7 +77,7 @@ export default function Menu() {
                         </button>
                         <button
                             type="button"
-                            className="btn btn-danger bg-red-500 hover:bg-[#fffdf5] hover:text-red-500 border-[2px] font-medium rounded-lg w-[150px] h-[50px]"
+                            className="btn btn-danger bg-red-500 hover:bg-[#fffdf5] hover:text-red-500 border-[2px] font-medium rounded-lg w-[130px] h-[40px]"
                         >
                             Hemen Başvur
                         </button>
