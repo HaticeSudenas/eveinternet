@@ -67,8 +67,8 @@ export default function LoveUs() {
             <div className="relative ">
                 <div  className="shadow-md w-full h-[421px] absolute bg-[#fab873]" />
                 <Slider className="mb-[30px]" ref={(ref) => setSliderRef(ref)} {...settings}>
-                    {cards.map((card, index) => (
-                        <div id={card.id} className="text-center h-[430px] w-[1280px] relative top-4 left-32 block group text-left flex gap-3">
+                {cards.map((card, index) => (
+                        <div  key={card.id} className="text-center h-[430px] w-[1280px] relative top-4 left-32 block group text-left flex gap-3">
                             <div className="bg-white rounded-[20px] shadow-top md:shadow-md p-6 md:w-[384px] md:h-[430px] w-[140px] h-[300px] border border-[#E2E8F0]">
                                 <div className=" w-full  items-center block group">
                                     <img src={card.imageUrl} className="w-full h-full rounded-md" />
