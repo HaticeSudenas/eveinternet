@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-size: var(--font-size);
+}
+body {
+    @apply bg-[color:var(--background-primary)] text-[color:var(--color-base)] text-[0.938rem];
+}
+
+input[type=file]::file-selector-button {
+   @apply bg-[color:var(--color-primary)] text-[color:var(--background-secomdary)];
+   position: absolute;
+   left:1295px;
+   top: 841px;
+   margin-right: 20px;
+   border: none;
+   position: absolute;
+   padding: 10px;
+   border-radius: 10px;
+   color: #fff;
+   cursor: pointer;
+  }
+
+

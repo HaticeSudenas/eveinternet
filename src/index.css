@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.scroll-button {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.scroll-button-hidden {
+    transform: translateY(-100%); /* Başlangıçta yukarıda gizli */
+    opacity: 0; /* Başlangıçta tamamen şeffaf */
+}
+
+.scroll-button-visible {
+    transform: translateY(0); /* Görünür hale geldiğinde aşağı kay */
+    opacity: 1; /* Görünür hale geldiğinde opaklık 1 */
+}
+
