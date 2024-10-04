@@ -1,5 +1,4 @@
-import SignUpButton from "../../../components/buttons/signUpButton";
-import NaviCard from "../../../components/cards/naviCard";
+
 import Menu from "./menu";
 
 export default function NavBar() {

@@ -1,7 +1,4 @@
-import SignUpButton from "../../../../components/buttons/signUpButton";
-import BestCard from "../../../../components/cards/bestCard";
 import { FaPhoneSquareAlt } from "react-icons/fa";
-import IconInputs from "../../../../components/inputs";
 
 export default function Best() {
     return (

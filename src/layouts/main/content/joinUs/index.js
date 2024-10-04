@@ -1,4 +1,3 @@
-import SignUpButton from "../../../../components/buttons/signUpButton";
 import { BsBadgeHd } from "react-icons/bs";
 import { MdOutlineLibraryAddCheck } from "react-icons/md";
 export default function JoinUs() {
