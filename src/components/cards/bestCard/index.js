@@ -2,7 +2,7 @@ export default function BestCard({img,title,subTitle,button}){
     return(
         <div className="shadow-box max-w-sm border-1 border-[#0F172A] bg-[#0F172A] rounded-[10px] shadow ">
                     <div className="mb-12">
-                        <img src={img} className="h-[220px] w-[394px] w-full rounded-[10px]" />
+                        <img src={img} className="h-[220px] w-[394px] w-full rounded-[10px]" alt="Description of the image"/>
                     </div>
                     <div className="mx-4">
                         <div className="h-[26px] gap-4 w-[330px]">

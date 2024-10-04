@@ -108,24 +108,24 @@ export default function Footer() {
                     </div>
                     <div className="text-base font-normal">
                         <p className="font-medium pb-4">Get the App</p>
-                        <img src="/img/logo/AppStore.png" className="w-[100px] md:w-[119px] pb-4" />
-                        <img src="/img/logo/GooglePlay.png" className="w-[100px] md:w-[119px] pb-12" />
+                        <img alt="Description of the image" src="/img/logo/AppStore.png" className="w-[100px] md:w-[119px] pb-4" />
+                        <img alt="Description of the image" src="/img/logo/GooglePlay.png" className="w-[100px] md:w-[119px] pb-12" />
                         <p className="pb-4 font-medium">Follow Us</p>
                         <div className="grid grid-cols-5">
                             <button className="hover:border w-7 p-1">
-                                <img className="text-black" src="/img/logo/youtube.png" />
+                                <img alt="Description of the image" className="text-black" src="/img/logo/youtube.png" />
                             </button>
                             <button className="hover:border w-7 p-1">
-                                <img className="text-black" src="/img/logo/Vector9.png" />
+                                <img alt="Description of the image" className="text-black" src="/img/logo/Vector9.png" />
                             </button>
                             <button className="hover:border w-7 p-1">
-                                <img className="text-black" src="/img/logo/Vector10.png" />
+                                <img alt="Description of the image" className="text-black" src="/img/logo/Vector10.png" />
                             </button>
                             <button className="hover:border w-7 p-1">
-                                <img className="text-black" src="/img/logo/instagram.png" />
+                                <img alt="Description of the image" className="text-black" src="/img/logo/instagram.png" />
                             </button>
                             <button className="hover:border w-7 p-1">
-                                <img className="text-black" src="/img/logo/linkedin.png" />
+                                <img alt="Description of the image" className="text-black" src="/img/logo/linkedin.png" />
                             </button>
                         </div>
                     </div>
