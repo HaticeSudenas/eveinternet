@@ -5,13 +5,13 @@ export default function JoinUs() {
         <div className="mt-[-800px] bg-cover bg-center w-full h-[1100px] md:h-auto">
             <div className="mx-4 md:mx-28 bg-white shadow-2xl rounded-2xl p-4">
                 <div className="flex flex-col md:flex-row justify-between w-full h-full transition-colors block group">
-                    <div className="w-full md:w-[800px] h-[400px] md:h-[600px] relative mt-6 md:mt-0">
+                    <div className="w-full md:w-[700px] h-[400px] md:h-[600px] relative mt-6 md:mt-0">
                         <img className="h-full w-full rounded-2xl" src="https://digiturk-internet.com.tr/Upload/Urunler/avrupa-yildizi-1.jpg" alt="Logo" />
                         <div className="absolute inset-0 flex m-4">
-                            <span className="w-full md:w-[570px] text-white font-semibold text-2xl md:text-4xl">Digiturk Eğlencenin ve Avrupanın Yıldızı</span>
+                            <span className="w-full md:w-[400px] text-white font-semibold text-lg md:text-xl">Digiturk Eğlencenin ve Avrupanın Yıldızı</span>
                         </div>
                         <div className="absolute inset-0 flex mt-[100px] md:mt-[200px] ml-5">
-                            <span className="w-[400px] text-white font-semibold text-lg md:text-2xl">Oscar'lı Filmler, Ödüllü Diziler...</span>
+                            <span className="w-[400px] text-white font-semibold text-lg md:text-xl">Oscar'lı Filmler, Ödüllü Diziler...</span>
                         </div>
                         <div className="absolute inset-0 flex mt-[250px] md:mt-[450px] ml-5">
                             <span className="text-white font-normal text-lg md:text-2xl">12 ay</span>

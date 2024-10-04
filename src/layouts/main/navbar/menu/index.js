@@ -15,7 +15,7 @@ export default function Menu() {
 
             <div className="flex justify-between items-center">
 
-                <div className="pt-4 pr-[40px] w-[200px] h-[50px]">
+                <div className="pt-4 pr-[30px] w-[200px] h-[50px]">
                     <img
                         src="https://digiturk-internet.com.tr/Content/assets/img/logo.png"
                         alt="Logo"
@@ -68,7 +68,7 @@ export default function Menu() {
                         </div>
                         <button
                             type="button"
-                            className="flex btn btn-outline-danger border-[2px] font-medium rounded-lg w-[140px] h-[40px]"
+                            className="flex btn btn-outline-danger border-[2px]  rounded-lg w-[140px] h-[40px]"
                         >
                             <div className="pt-1 flex">
                                 <MdVideoCameraFront className="w-6 h-6" />
@@ -77,7 +77,7 @@ export default function Menu() {
                         </button>
                         <button
                             type="button"
-                            className="btn btn-danger bg-red-500 hover:bg-[#fffdf5] hover:text-red-500 border-[2px] font-medium rounded-lg w-[140px] h-[40px]"
+                            className="btn btn-danger bg-red-500 hover:bg-[#fffdf5] hover:text-red-500 border-[2px]  rounded-lg w-[140px] h-[40px]"
                         >
                             Hemen Başvur
                         </button>
