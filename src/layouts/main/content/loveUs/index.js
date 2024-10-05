@@ -69,9 +69,9 @@ export default function LoveUs() {
                 <Slider className=" md:mb-[30px]" ref={(ref) => setSliderRef(ref)} {...settings}>
                 {cards.map((card, index) => (
                         <div  key={card.id} className="text-center h-[430px] w-[1280px] relative top-4 left-32 block group text-left flex gap-3">
-                            <div className="bg-white rounded-[20px] shadow-top md:shadow-md p-2 md:p-6 md:w-[384px] md:h-[430px] w-[130px] h-[190px] border border-[#E2E8F0]">
+                            <div className="bg-white mt-4 rounded-[20px] shadow-top md:shadow-md p-1 md:p-6 md:w-[384px] md:h-[430px] w-[110px] h-[170px] border border-[#E2E8F0]">
                                 <div className=" w-full  items-center block group">
-                                    <img src={card.imageUrl} className="md:w-full w-[150] h-[170px] md:h-full rounded-md" alt="Description of the image" />
+                                    <img src={card.imageUrl} className="md:w-full w-[110px] h-[160px] md:h-full rounded-md" alt="Description of the image" />
                                     <div className="hidden md:block mx-3 flex-1">
                                         <h6 className="font-normal text-xl font-semibold mt-2">{card.role}</h6>
                                         <div className=" font-normal text-lg text-[#475569] my-1 ">{card.author}</div>
