@@ -55,7 +55,7 @@ export default function JoinUs() {
 
                         <button
                             type="button"
-                            className="btn shadow-2xl mb-3 hover:bg-[#fab873] hover:text-white duration-500 border-[2px] text-lg md:text-xl font-medium rounded-lg w-full h-[60px] md:h-[80px]"
+                            className="btn shadow-2xl mb-3 hover:bg-[#fab873] hover:text-white duration-500 border-[2px] text-xs md:text-xl font-normal rounded-lg w-full h-[60px] md:h-[80px]"
                         >
                             Digitürk Eğlencenin ve Avrupanın Yıldızı 12 ay ₺299 Satın Al Anında İzle!
                         </button>

@@ -74,7 +74,7 @@ export default function LoveUs() {
                                     <img src={card.imageUrl} className="w-full h-full rounded-md" alt="Description of the image" />
                                     <div className="mx-3 flex-1">
                                         <h6 className="font-normal text-xl font-semibold mt-2">{card.role}</h6>
-                                        <div className="hidden md:block font-normal text-lg text-[#475569] my-1 ">{card.author}</div>
+                                        <div className="hidden h-[200px] w-[200px] md:block font-normal text-lg text-[#475569] my-1 ">{card.author}</div>
                                     </div>
                                 </div>
                             </div>

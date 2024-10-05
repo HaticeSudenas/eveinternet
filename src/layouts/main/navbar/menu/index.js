@@ -15,7 +15,7 @@ export default function Menu() {
 
             <div className="flex justify-between items-center">
 
-                <div className="pt-4 pr-[30px] w-[150px] h-[40px]">
+                <div className="pt-4 pr-[25px] w-[150px] h-[40px]">
                     <img
                         src="https://digiturk-internet.com.tr/Content/assets/img/logo.png"
                         alt="Logo"
@@ -25,7 +25,7 @@ export default function Menu() {
                 <div className="md:hidden w-30 flex  ">
                     <button
                         onClick={toggleMenu}
-                        className="text-3xl pl-28 focus:outline-none"
+                        className="text-3xl pl-24 pr-4 focus:outline-none"
                     >
                         {isOpen ? <MdClose /> : <MdMenu />}
                     </button>
