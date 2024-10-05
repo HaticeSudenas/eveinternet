@@ -57,7 +57,7 @@ export default function LoveUs() {
 
     return (
         <div className="mt-20 px-20 mb-28 bg-cover bg-center w-full h-[732px] mb-[140px]">
-            <div className="text-[#0F172A] text-6xl font-extrabold flex justify-between items-center py-16">
+            <div className="text-[#0F172A] text-2xl md:text-6xl font-normal md:font-extrabold flex justify-between items-center py-16">
                 Neler Var
                 <div>
                     <button onClick={goToPrev} className="mr-3"><img src="/img/logo/Button.png" alt="Logo" /></button>
@@ -69,9 +69,9 @@ export default function LoveUs() {
                 <Slider className=" md:mb-[30px]" ref={(ref) => setSliderRef(ref)} {...settings}>
                 {cards.map((card, index) => (
                         <div  key={card.id} className="text-center h-[430px] w-[1280px] relative top-4 left-32 block group text-left flex gap-3">
-                            <div className="bg-white mt-4 rounded-[20px] shadow-top md:shadow-md p-1 md:p-6 md:w-[384px] md:h-[430px] w-[80px] h-[140px] border border-[#E2E8F0]">
+                            <div className="bg-white mt-4 rounded-[20px] shadow-top md:shadow-md p-1 md:p-6 md:w-[384px] md:h-[430px] w-[75px] h-[130px] border border-[#E2E8F0]">
                                 <div className=" w-full  items-center block group">
-                                    <img src={card.imageUrl} className="md:w-full w-[80px] h-[130px] md:h-full rounded-md" alt="Description of the image" />
+                                    <img src={card.imageUrl} className="md:w-full w-[75px] h-[120px] md:h-full rounded-md" alt="Description of the image" />
                                     <div className="hidden md:block mx-3 flex-1">
                                         <h6 className="font-normal text-xl font-semibold mt-2">{card.role}</h6>
                                         <div className=" font-normal text-lg text-[#475569] my-1 ">{card.author}</div>
