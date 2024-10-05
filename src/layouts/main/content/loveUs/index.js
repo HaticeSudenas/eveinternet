@@ -66,12 +66,12 @@ export default function LoveUs() {
             </div>
             <div className="relative ">
                 <div  className="shadow-md w-full h-[300px] md:h-[421px] absolute bg-[#fab873]" />
-                <Slider className="mb-[30px]" ref={(ref) => setSliderRef(ref)} {...settings}>
+                <Slider className=" md:mb-[30px]" ref={(ref) => setSliderRef(ref)} {...settings}>
                 {cards.map((card, index) => (
                         <div  key={card.id} className="text-center h-[430px] w-[1280px] relative top-4 left-32 block group text-left flex gap-3">
-                            <div className="bg-white rounded-[20px] shadow-top md:shadow-md p-6 md:w-[384px] md:h-[430px] w-[200px] h-[300px] border border-[#E2E8F0]">
+                            <div className="bg-white rounded-[20px] shadow-top md:shadow-md p-2 md:p-6 md:w-[384px] md:h-[430px] w-[130px] h-[190px] border border-[#E2E8F0]">
                                 <div className=" w-full  items-center block group">
-                                    <img src={card.imageUrl} className="md:w-full h-full rounded-md" alt="Description of the image" />
+                                    <img src={card.imageUrl} className="md:w-full w-[150] h-[170px] md:h-full rounded-md" alt="Description of the image" />
                                     <div className="hidden md:block mx-3 flex-1">
                                         <h6 className="font-normal text-xl font-semibold mt-2">{card.role}</h6>
                                         <div className=" font-normal text-lg text-[#475569] my-1 ">{card.author}</div>
@@ -86,7 +86,7 @@ export default function LoveUs() {
             <Disclosure>
                     {({ open}) => (
                         <>
-                            <Disclosure.Button className={classNames(" shadow-box rounded border-1 border-[#fab873] h-[52px] flex items-center justify-between w-full text-[18px] px-4 font-semibold text-[#4f4f4e] hover:bg-[#fab873] hover:text-white transition-colors my-3", { "rounded-b-lg": open })}>
+                            <Disclosure.Button className={classNames(" shadow-box rounded border-1 border-[#fab873] h-[52px] flex items-center justify-between w-full text-[18px] px-4 mt-5 font-semibold text-[#4f4f4e] hover:bg-[#fab873] hover:text-white transition-colors my-3", { "rounded-b-lg": open })}>
                                 Kampanya Detayları
                                 <svg className={classNames({ "rotate-180 text-[color:var(--color-primary)]": open })} viewBox="0 0 24 24" width={18.75} height={18.75}>
                                     <path
